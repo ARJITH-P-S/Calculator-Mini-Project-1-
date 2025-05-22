@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+    <h1 class="gradient-text">If you can't count on your brain, count on me! <i class="fa-regular fa-face-laugh-beam"></i></h1>
+    </div>
+    <div id="calculator">
+      <input id="display" readonly />
+    <div class="first">
+      <button onclick="inputToDisplay('+')">+</button>
+      <button onclick="inputToDisplay('7')">7</button>
+      <button onclick="inputToDisplay('8')">8</button>
+      <button onclick="inputToDisplay('9')">9</button>
+      </div>
+    <div class="sec">
+      <button onclick="inputToDisplay('-')">-</button>
+      <button onclick="inputToDisplay('4')">4</button>
+      <button onclick="inputToDisplay('5')">5</button>
+      <button onclick="inputToDisplay('6')">6</button>
+      </div>
+    <div class="third">
+      <button onclick="inputToDisplay('*')">*</button>
+      <button onclick="inputToDisplay('1')">1</button>
+      <button onclick="inputToDisplay('2')">2</button>
+      <button onclick="inputToDisplay('3')">3</button>
+      </div>
+    <div class="fourth">
+      <button onclick="inputToDisplay('/')">/</button>
+      <button onclick="inputToDisplay('0')">0</button>
+      <button onclick="inputToDisplay('.')">.</button>
+      <button id="calc" onclick="calculate()">=</button>
+      </div>
+      <button class="clear" onclick="clearDisplay()">AC</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
